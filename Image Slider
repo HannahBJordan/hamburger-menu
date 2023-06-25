@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="header-box">
+        <p>Order now to receive gifts by Mother's day! Free shipping for all members!</p>
+    </div>
+
+    <div class="header-box-wrap">
+        <div class="header-box2">
+            <a href="#" class="navlink">
+                <i class="fas fa-map-marker-alt"></i>
+                Store Locator
+            </a>
+
+            <a href="#" class="navlink">
+                <i class="far fa-heart"></i>
+                Wish List
+            </a>
+
+            <a href="#" class="navlink">
+                <i class="fas fa-gift"></i>
+                Gift Cards
+            </a>
+
+            <a href="#" class="navlink">
+                <i class="fa-solid fa-flag-usa"></i>
+                USA
+            </a>
+        </div>
+    </div>
+
+    <div class="nav-bar-wrap">
+        <div class="navbar">
+            <a href="#" class="logo-container">
+            <img src="images/Lululemon_Athletica_logo.svg.png" alt="Logo" class="logo">
+            </a>
+            <a href="#" class="home">HOME</a>
+            <a href="#" class="womens">WOMENS</a>
+            <a href="#" class="mens">MENS</a>
+            <a href="#" class="shoes">SHOES</a>
+            <a href="#" class="accessories">ACCESSORIES</a>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+    </div>
+
+    <div class="box">
+        <ul>
+            <li class="list-title">lululemon</li>
+            <li>Mother's Day Gifts</li>
+            <li>Women's What's New</li>
+            <li>Men's What's New</li>
+            <li>All Women's</li>
+            <li>All Men's</li>
+            <li>All Shoes</li>
+            <li>All Accessories</li>
+        </ul>
+    </div>
+
+    <!-- <div class="gray-box">
+        <img src="images/lulu-girl.jpeg" alt="image">
+        <button class="hero-button">SHOP WHAT'S NEW</button>
+      </div> -->
+
+    <div class="hero-container">
+        <div class="hero-container-box">
+        <img src="images/lulu-girl.jpeg" alt="Image">
+        <button class="hero-button">SHOP WHAT'S NEW</button>
+    </div>
+
+    <div class="container">
+        <h1>72&deg; and sleeveless</h1>
+        <p>It's tank season Expect breezy condtions, gorgeous views and increasing comfort throughout your day.</p>
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/lulu-blackdress.jpg" alt="Image 1" />
+                <div class="slide-content">
+                    <h2>Define Sleeveless Dress</h2>
+                    <p>$138</p>
+                    <button class="my-button">SHOP NOW</button>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="images/lulu-lavender-tank.jpg" alt="Image 2" />
+                <div class="slide-content">
+                    <h2>Align Tank Top</h2>
+                    <p>$88</p>
+                    <button class="my-button">SHOP NOW</button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/lulu-olive-shorts.jpg" alt="Image 3" />
+                <div class="slide-content">
+                    <h2>Olive Shorts</h2>
+                    <p>$99</p>
+                    <button class="my-button">SHOP NOW</button>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script> 
+    <script src="https://kit.fontawesome.com/e01ddacf1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
